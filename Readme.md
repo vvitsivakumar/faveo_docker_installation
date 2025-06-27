@@ -14,7 +14,7 @@ ___
 To get started, make sure you have Docker and Docker-Compose installed on your system, and then clone the below Git-Hub repository with the below link.
 
 ```sh
-git clone https://github.com/ladybirdweb/faveo-helpdesk-docker-v2.git
+git clone https://github.com/vvitsivakumar/faveo_docker_installation.git
 ```
 
 ---
