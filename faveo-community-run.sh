@@ -389,7 +389,7 @@ if [[ $? -eq 0 ]]; then
     echo "Please save the following credentials."
     echo "Database Hostname: faveo-"
     echo "Mysql Database root password: $db_root_pw"
-    echo "Faveo Helpdesk name: $db_name"
+    echo "Faveo Helpdesk DB Name: $db_name"
     echo "Faveo Helpdesk DB User: $db_user"
     echo "Faveo Helpdesk DB Password: $db_user_pw"
     echo -e "\n"
@@ -402,7 +402,7 @@ if [[ $? -eq 0 ]]; then
     echo "Faveo Docker installed successfully. Visit https://$domainname from your browser." >> credentials.txt
     echo "Database Hostname: faveo-mysql" >> credentials.txt
     echo "Mysql Database root password: $db_root_pw" >> credentials.txt
-    echo "Faveo Helpdesk name: $db_name" >> credentials.txt
+    echo "Faveo Helpdesk DB Name: $db_name" >> credentials.txt
     echo "Faveo Helpdesk DB User: $db_user" >> credentials.txt
     echo "Faveo Helpdesk DB Password: $db_user_pw" >> credentials.txt
     echo -e "\n"
